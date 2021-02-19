@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shape Up or Shape Out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="page-container">
+
+        <div class="shapes">
+            <label for="rectangle">RECTANGLE</label>
+            <input id="recHeight" type="number" placeholder="height">
+            <input id="recWidth" type="number" placeholder="width">
+            <button id="recButton">Add Rectangle</button> 
+        </div>
+        <div class="shapes">
+            <label for="square">SQUARE</label>
+            <input id="sqLength" type="number" placeholder="side length">
+            <button id="sqButton">Add Square</button>
+        </div>
+        <div class="shapes">
+            <label for="circle">CIRCLE</label>
+            <input id="cirRadius" type="number" placeholder="radius">
+            <button id="cirButton">Add Cirle</button>
+        </div>
+        <div class="shapes">
+            <label for="triangle-topleft">TRIANGLE</label>
+            <input id="triHeight" type="number" placeholder="height">
+            <button id="triButton">Add Triangle</button>
+        </div>
+        <h3>Shape Properties</h3>
+        <div class="shapes">
+            <h4>Shape: <span id = "h4Name"></span></h4>
+        </div>
+        <div class="shapes">
+            <h4>Width: <span id = "h4Width"></span></h4>
+        </div>
+        <div class="shapes">
+            <h4>Height: <span id = "h4Height"></span></h4>
+        </div>
+        <div class="shapes">
+            <h4>Radius: <span id = "h4Radius"></span></h4>
+        </div>
+        <div class="shapes">
+            <h4>Area: <span id = "h4Area"></span></h4>
+        </div>
+        <div class="shapes">
+            <h4>Perimeter: <span id = "h4Perimeter"></span></h4>
+        </div>
+        <div id="div-shape-box"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

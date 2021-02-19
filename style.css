@@ -1,0 +1,65 @@
+#div-shape-box{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    background-color:rgb(5, 5, 5);
+}
+
+.rectangle{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.triangle-topleft{
+    width: 0;
+    height: 0;
+    border-top: 100px solid rgb(3, 3, 3);
+    border-right: 100px solid transparent;
+    position: absolute;
+    
+        /* width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid yellow;
+        position: absolute;
+        background-color: transparent; */
+      
+     
+}
+ 
+.shapes{
+    display: inline-block;
+    margin: 5px;
+} 
+
+h4, h3, h1{
+    color: black;
+    background-image: -webkit-linear-gradient(92deg, black,black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#h4Name{
+    color: black;
+
+}
+
